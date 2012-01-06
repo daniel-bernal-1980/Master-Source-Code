@@ -1,9 +1,9 @@
 <!DOCtype html>
 
-<!--	VFW - Project 3			-->
+<!--	MIU - Project			-->
 <!--	Jairo Daniel Bernal 	-->
-<!--	VFW 1112				-->
-<!--	12/08/2011				-->
+<!--	MIU 1201				-->
+<!--	01/06/2012				-->
 
 <html> 
 	<head>
@@ -19,13 +19,42 @@
 
 	</head>
 	<body>
-		<header><h1>Design Track</h1></header>
+		<!--<header><h1>Design Track</h1></header>
 		<p id="mess">Manage your architectural projects by tracking your design tasks with this simple app. </p>
-		<fieldset id="createProject">
+		<fieldset id="createProject">-->
 			<!--<legend></legend>-->
-			<h2 id="prjTrackTl">Create a Project Track</h2>
+			<!--<h2 id="prjTrackTl">Create a Project Track</h2>
 				<a href="additem.html"><input type="submit" value="Add a Project" id="addProject"/></a>
-		</fieldset>
+		</fieldset>-->
 	
+		<header id="search">
+			<input type="search" value="Search a Project" id="searchProject"/><input type="submit" value="Search" id="searchField"/>	
+		</header>
+		
+		<div id="feature">
+			<h1>Design Track</h1>
+			<p id="mess">Manage your architectural projects by tracking your design tasks with this simple app.</p>
+			<fieldset id="createProject">
+				<!--<legend></legend>-->
+				<h2 id="prjTrackTl">Create a Project Track</h2>
+				<a href="additem.html" id="addProject"><input type="submit" value="Add a Project" id="addProject"/></a>
+			</fieldset>
+
+			<fieldset id="Browse">
+				<h2 id="browsePrj">Browse a Project Track</h2>
+				<ul>
+					<li><a href="#"><input type="submit" value="Site Development" id="siteDeve"/></a></li>
+					<li><a href="#"><input type="submit" value="Building Envelope" id="bldgEnv"/></a></li>
+					<li><a href="#"><input type="submit" value="Interior Design" id="intrDgn"/></a></li>
+				</ul>
+				
+				<h2 id="browsePrj">Browse a Project Task</h2>
+				<ul>
+					<li><a href="#"><input type="submit" value="Drawings" id="dwg"/></a></li>
+					<li><a href="#"><input type="submit" value="3D Work" id="trdWork"/></a></li>
+					<li><a href="#"><input type="submit" value="Renderings" id="rndr"/></a></li>
+				</ul>
+			</fieldset>
+		</div>
 	</body>
 </html>

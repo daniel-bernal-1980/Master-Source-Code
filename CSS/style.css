@@ -162,6 +162,12 @@ label{
 
 /*  index.html  */
 
+#search{
+	position: static;
+	margin-bottom: -10px;
+	text-align: right;
+}
+
 #createProject{
 	margin-top: 40px;
 	background-color: #7c9ec0;
@@ -174,7 +180,31 @@ label{
 	padding-top: 10px;
 }
 
+#addProject{
+
+}
+
+#Browse{
+	margin-top: 40px;
+	background-color: #7c9ec0;
+	border: 2px solid white;
+	-moz-box-shadow: 0 0 4px #aeaeae;
+	-webkit-box-shadow: 0 0 4px #aeaeae;
+	box-shadow: 0 0 4px #aeaeae;
+	width: 410px;
+	height: 230px;
+	padding-top: 10px;
+}
+
+
 #prjTrackTl{
+	text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.75);
+	color: #284767;
+	font-size: 20px;
+	margin-top: 0;
+}
+
+#browsePrj{
 	text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.75);
 	color: #284767;
 	font-size: 20px;
