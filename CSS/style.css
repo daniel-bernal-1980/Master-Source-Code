@@ -180,9 +180,6 @@ label{
 	padding-top: 10px;
 }
 
-#addProject{
-
-}
 
 #Browse{
 	margin-top: 40px;
@@ -194,6 +191,11 @@ label{
 	width: 410px;
 	height: 230px;
 	padding-top: 10px;
+}
+
+.brws{
+	width: 410px;
+	margin-left: -40px;
 }
 
 
@@ -214,7 +216,7 @@ label{
 #addProject{
 	margin-top: 15px;
 	margin-bottom: 5px;
-	
+	margin-left: 160px;
 }
 
 #mess{
