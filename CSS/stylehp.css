@@ -6,12 +6,7 @@
 	
 /*  additem.htmal  */
 	
-Body{ 
-	background-color: #284767;
-	color:#284767;
-	font: 13px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-}
-
+/*
 
 h1{
 	background-color: white;
@@ -31,6 +26,7 @@ h1{
 	font-size: 36px;
 	text-transform: uppercase;
 }
+
 
 nav{
 	background-color: white;
@@ -158,17 +154,43 @@ label{
 #submit{
 	margin-top: 15px;
 	margin-bottom: 5px;
-}
+}*/
 
-/*  index.html  */
+/*  homepage.html  */
 
 #search{
+	background: url(../Image/BG%20Search.jpg) no-repeat;
+	position: fixed;
+	left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 5px;
+	margin: -8px -8px -10px;
 	position: static;
 	margin-bottom: -10px;
 	text-align: right;
 }
 
-#createProject{
+#feature{
+	
+}
+
+
+Body{
+	color:#284767;
+	font: 13px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	background: url(../Image/BG%20graphpaper.png) no-repeat 0 40px #ffffff;
+	height: 740px;
+}
+
+#addProject{
+	top: 110px;
+	position: relative;
+	left: 160px;
+}
+
+
+/*#createProject{
 	margin-top: 40px;
 	background-color: #7c9ec0;
 	border: 2px solid white;
@@ -178,19 +200,20 @@ label{
 	width: 410px;
 	height: 80px;
 	padding-top: 10px;
-}
+}*/
 
 
 #Browse{
-	margin-top: 40px;
-	background-color: #7c9ec0;
+	margin-top: 240px;
 	border: 2px solid white;
-	-moz-box-shadow: 0 0 4px #aeaeae;
-	-webkit-box-shadow: 0 0 4px #aeaeae;
-	box-shadow: 0 0 4px #aeaeae;
 	width: 410px;
 	height: 230px;
 	padding-top: 10px;
+}
+
+#listOne{
+	background: url(../Image/BrwsProjectTrack.png) no-repeat 0 0;
+	margin-right: 0;
 }
 
 .brws{
@@ -213,11 +236,7 @@ label{
 	margin-top: 0;
 }
 
-#addProject{
-	margin-top: 15px;
-	margin-bottom: 5px;
-	margin-left: 160px;
-}
+
 
 #mess{
 	color: white;

@@ -1,7 +1,7 @@
-//VFW - Project 3
+//MIU - Project
 //Jairo Daniel Bernal
-//VFW 1112
-//12/08/2011		
+//MIU 1201
+//01/06/2012		
 
 // DOM Content Load.
 window.addEventListener("DOMContentLoaded", function(){
