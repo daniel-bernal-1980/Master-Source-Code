@@ -171,16 +171,16 @@ label{
 	text-align: right;
 }
 
-#feature{
-	
-}
 
 
 Body{
 	color:#284767;
 	font: 13px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	background: url(../Image/BG%20graphpaper.png) no-repeat 0 40px #ffffff;
-	height: 740px;
+	height: 750px;
+	background: url(../Image/BG%20graphpaper.png) no-repeat 0 40px;
+	/*-moz-box-shadow: 0 0;
+	-webkit-box-shadow: 0 0;
+	box-shadow: 0 0;*/
 }
 
 #addProject{
@@ -203,42 +203,46 @@ Body{
 }*/
 
 
-#Browse{
-	margin-top: 240px;
-	border: 2px solid white;
+/*#Browse{
+	/*margin-top: 240px;
+	/*border: 2px solid white;*!/
 	width: 410px;
 	height: 230px;
-	padding-top: 10px;
+	padding-top: 10px;*!/
+}*/
+
+#siteDeve{
+	/*background: url(../Image/siteDevelopment.png) no-repeat;
+	width: 300px;*/
 }
 
 #listOne{
-	background: url(../Image/BrwsProjectTrack.png) no-repeat 0 0;
-	margin-right: 0;
+	
 }
 
-.brws{
+/*.brws{
 	width: 410px;
 	margin-left: -40px;
+}*/
+
+
+/*#prjTrackTl{
+	text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.75);
+	color: #284767;
+	font-size: 20px;
+	margin-top: 0;*/
 }
 
-
-#prjTrackTl{
+/*#browsePrj{
 	text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.75);
 	color: #284767;
 	font-size: 20px;
 	margin-top: 0;
-}
-
-#browsePrj{
-	text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.75);
-	color: #284767;
-	font-size: 20px;
-	margin-top: 0;
-}
+}*/
 
 
 
-#mess{
+/*#mess{
 	color: white;
 	font-size: 13px;
 	padding-top: 10px;
@@ -246,5 +250,5 @@ Body{
 	padding-left: 20px;
 	margin-bottom: -10px;
 	width: 410px;
-}
+}*/
 
